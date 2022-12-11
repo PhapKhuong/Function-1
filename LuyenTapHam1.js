@@ -13,7 +13,7 @@ function add1ToNumber(num)
 
 function showNumber()
     {
-        x = +prompt("Nhập vào một số");
+        let x = +prompt("Nhập vào một số");
         document.getElementById("result2").innerText = "Số tăng thêm 1 so với số ban đầu là: " + add1ToNumber(x);
     };
 
